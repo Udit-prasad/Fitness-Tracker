@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fitness Tracker App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="main-layout">
+    <!-- Left: Chatbot -->
+    <div class="chatbot-container">
+      <h2>🤖 Fitness AI Planner</h2>
+      <div id="chatbox" class="chatbox"></div>
+      <input type="text" id="userInput" placeholder="Ask for a workout..." />
+    </div>
+
+    <div class="container">
+      <h1>🏋️‍♂️ Fitness Tracker</h1>
+
+      <form id="fitnessForm">
+        <input type="text" id="exercise" placeholder="Exercise Type (e.g. Running)" required />
+        <input type="number" id="duration" placeholder="Duration (minutes)" required />
+        <input type="number" id="calories" placeholder="Calories Burned" required />
+        <button type="submit">Add Activity</button>
+      </form>
+
+      <h2>Today's Activities</h2>
+      <ul id="activityList"></ul>
+
+      <button id="resetButton" class="reset-button">🔄 Reset All Activities</button>
+    </div>
+
+    <!-- Right: Summary -->
+    <div class="summary-box">
+      <h2>📊 Daily Summary</h2>
+      <p>Total Minutes: <span id="totalDuration">0</span></p>
+      <p>Total Calories: <span id="totalCalories">0</span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
