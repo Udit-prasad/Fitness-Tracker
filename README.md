@@ -1,4 +1,4 @@
-#🏋️‍♂️ Fitness Tracker Web App
+🏋️‍♂️ Fitness Tracker Web App
 A modern and responsive Fitness Tracker web app built with HTML, CSS, and JavaScript, designed to help users track their daily workouts, interact with a smart AI trainer chatbot, and plan future exercise routines with an integrated Workout Planner.
 
 🚀 Features
